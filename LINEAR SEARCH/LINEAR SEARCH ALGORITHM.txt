@@ -1,0 +1,20 @@
+									LINEAR SEARCH ALGORITHM
+
+Step 1: START
+Step 2: Get input from user for number of students they want to enter
+Step 3: Create an empty list called students
+Step 4: Using for loop, loop through all the names of the students entered by the user which can be used to enter the given names into the empty list called students
+		For i in range(i, countofnames+1):
+			y = input()
+students .append(y)
+		END of for loop
+Step 5 : Get input from the user for the Name they want to search from the given list
+Step 6: define a function called linear operation then using for loop iterate through each and every elements in the list. 
+Using IF statement check whether the entered name by the user is there in the list
+		def linearoperation(names, students):
+			for student in range (len(students))
+				if(name==students[student])
+					print(“Student studies in the class”)
+				END of IF Statement
+			END of FOR Loop
+Step 7: END
